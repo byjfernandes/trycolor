@@ -35,3 +35,8 @@ function adicionaCorAleatoria() {
     textoCor.textContent = cores[numeroAleatorio(6)];
 }
 adicionaCorAleatoria();
+
+function reiniciaJogo() {
+    window.location.reload();
+}
+botaoReiniciar.addEventListener('click', reiniciaJogo);
